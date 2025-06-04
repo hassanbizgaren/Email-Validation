@@ -28,11 +28,11 @@ if len(email) >= 6:
                     print("Error: Email contains uppercase letters")
                 elif d == 1:
                     print(f"Error: Invalid character '{invalid_char}' found in email")
-                    print("Only letters, numbers, dots, underscores, hyphens, and @ are allowed")
+                    print("Only letters, numbers, '.', underscores, hyphens, and @ are allowed")
                 else:
                     print("Email is valid!")
             else:
-                print("Error: Check the dot (.) in your email")
+                print("Error: Check (.) in your email")
         else:
             print("Error: Check the @ symbol in your email")
     else:
